@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/035053a0d2.js" crossorigin="anonymous"></script>
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="cover">
+
+    <img class="logo" src="images/logo.svg" alt="logo snap">
+
+    <nav>
+
+      <ul class="nav-left">
+
+        <li id="features">Features<span><i id="features-arrow" class="fa-solid fa-angle-down"></i></span>
+          <div class="menu-deroulant menu-features">
+            <ul>
+              <li><img src="images/icon-todo.svg" alt="icon to-list">Todo list</li>
+              <li><img src="images/icon-calendar.svg" alt="icon calendar">Calendar</li>
+              <li><img src="images/icon-reminders.svg" alt="icon reminders">Reminders</li>
+              <li><img src="images/icon-planning.svg" alt="icon planning">Planning</li>
+            </ul>
+          </div>
+        </li>
+
+        <li id="company">Company<span><i id="company-arrow" class="fa-solid fa-angle-down"></i></span>
+          <div class="menu-deroulant menu-company">
+            <ul>
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+
+      <ul class="nav-right">
+        <li>Login</li>
+        <li id="register">Register</li>
+      </ul>
+
+    </nav>
+
+    <img src="images/icon-menu.svg" alt="icon menu" class="icon-open-menu">
+    <img src="images/icon-close-menu.svg" alt="icon menu close" class="icon-close-menu">
+
+</div>
+
+<section class="contenu">
+
+  <div class="left">
+
+      <div class="text">
+
+      <div class="title">
+        <h1>Make<br> remote work</h1>
+      </div>
+    
+      <div class="paragraphe">
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      </div>
+
+      <div class="button">
+        <button>Learn more</button>
+      </div>
+
+    </div>
+    
+
+    <div class="logos">
+
+      <img src="images/client-databiz.svg" alt="logo databiz" class="logo">
+      <img src="images/client-audiophile.svg" alt="logo audiophile" class="logo">
+      <img src="images/client-meet.svg" alt="logo meet" class="logo">
+      <img src="images/client-maker.svg" alt="" class="logo">
+
+    </div>    
+
+  </div>
+
+  <div class="illustration">
+
+    <img src="images/image-hero-desktop.png" alt="illustration avec un jeune homme qui tient un ordinateur portable" class="img-illustration-desktop">
+    <img src="images/image-hero-mobile.png" alt="illustration avec un jeune homme qui tient un ordinateur portable" class="img-illustration-mobile">
+
+  </div>
+
+</section>
+
+
+
+
+
+<!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="app.js"></script>
+</body>
+</html>
